@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="nextflow" ext="nf" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="yes" Keywords5="no" Keywords6="yes" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">! % &amp; ( ) * / : ; ? [ ] ^ | ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">process   as &#x0009;assert &#x0009;break &#x0009;case&#x000D;&#x000A;catch &#x0009;class &#x0009;const &#x0009;continue&#x000D;&#x000A;def &#x0009;default &#x0009;do &#x0009;else&#x000D;&#x000A;enum &#x0009;extends &#x0009;false &#x0009;Finally&#x000D;&#x000A;for &#x0009;goto &#x0009;if &#x0009;implements&#x000D;&#x000A;import &#x0009;in &#x0009;instanceof &#x0009;interface&#x000D;&#x000A;new &#x0009;pull &#x0009;package &#x0009;return&#x000D;&#x000A;super &#x0009;switch &#x0009;this &#x0009;throw&#x000D;&#x000A;throws &#x0009;trait &#x0009;true        try&#x000D;&#x000A;while</Keywords>
+            <Keywords name="Keywords2">val env file path stdin stdout tuple each name stageAs flatten glob hidden followLinks type maxDepth includeInputs optional&#x000D;&#x000A;&#x000D;&#x000A;accelerator afterScript beforeScript cache cpus conda container containerOptions clusterOptions disk echo errorStrategy executor ext label machineType maxErrors maxForks maxRetries memory module penv pod publishDir queue scratch stageInMode stageOutMode storeDir tag time validExitStatus&#x000D;&#x000A;&#x000D;&#x000A;distinct filter first last randomSample take unique until buffer collate collect flatten flatMap groupBy groupTuple map reduce toList toSortedList transpose splitCsv splitFasta splitFastq splitText cross collectFile combine concat join merge mix phase spread tap branch choice multiMap separate tap count countBy min max sum toInteger close dump ifEmpty print println set view</Keywords>
+            <Keywords name="Keywords3">input: output: when: exec: from into mode</Keywords>
+            <Keywords name="Keywords4">$ !</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6">Channel channel</Keywords>
+            <Keywords name="Keywords7">module load swap samtools index view sort idxstats flagstat stats bedcov depth merge faidx fqidx tview split quickcheck dict fixmate mpileup coverage flags fastq fasta addreplacerg collate depad markdup miso summarize_miso exon_utils pe_utils</Keywords>
+            <Keywords name="Keywords8">ar as asa autoconf automake awk banner base64 basename bash bc bdiff blkid break bsdcpio bsdtar bunzip2 bzcmp bzdiff bzegrep bzfgrep bzgrep bzip2 bzip2recover bzless bzmore c++ cal calendar case cat cc cd cfdisk chattr chgrp chmod chown chroot chvt cksum clang clang++ clear cmp col column comm compgen compress continue convert cp cpio crontab crypt csplit ctags curl cut date dc dd deallocvt declare deluser depmod deroff df dialog diff diff3 dig dircmp dirname disown dmesg do done dpkg dpkg-deb du echo ed egrep elif else env esac eval ex exec exit expand export expr fakeroot false fc fdisk ffmpeg fgrep fi file find flex flock fmt fold for fsck function functions fuser fusermount g++ gas gawk gcc gdb genisoimage getconf getopt getopts git gpg gpgsplit gpgv grep gres groff groups gunzip gzexe hash hd head help hexdump hg history httpd iconv id if ifconfig ifdown ifquery ifup in integer jobs join kill killall killall5 lc ld ldd let ln look ls lsattr lsb_release mail mailx make mkdir mkfifo mktemp more mv nohup od paste pcregrep pcretest perl ping pr print printf ps pwd python python2 python3 read readlink readonly reset return rev rm rmdir rsync sed select set sh sha1sum sha224sum sha256sum sha3sum sha512sum shift shuf size sleep sort spell split start stop strings strip suspend tail tar tee test then time times touch tr true uniq unset until unzip wait wc wget whence which while who xargs xz xzcat yes zcat</Keywords>
+            <Keywords name="Delimiters">00&quot;&quot;&quot; 01 02&quot;&quot;&quot; 03&apos; 04\ 05&apos; 06${ 07 08} 09&quot; 10\ 11&quot; 12${ 13 14} 15$( 16 17) 18&quot; 19\ 20&quot; 21&apos; 22\ 23&apos;</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="EFEFBA" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="004080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000080" bgColor="EBEBEB" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000080" bgColor="EBEBEB" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="C0C0C0" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="EBEBEB" fontName="" fontStyle="0" nesting="205008" />
+            <WordsStyle name="DELIMITERS2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="EFEFBA" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="EFEFBA" fontName="" fontStyle="0" nesting="2" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="EFEFBA" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="008000" bgColor="EBEBEB" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="008000" bgColor="EBEBEB" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
